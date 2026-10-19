@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express . Router () ;
-const articleController = require ('../controllers/articleController') ;
+const articleController = require ('../controllers/ArticleController') ;
 // Remarque capitale : Le pré fixe ’/ api/ articles ’ sera dé fini dans server .js.
 // Ici , ’/ ’ repr é sente donc la racine de la ressource : ’/ api/ articles ’ !
 router . get('/', articleController . getAllArticles ) ;
